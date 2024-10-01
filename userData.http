@@ -1,0 +1,26 @@
+GET http://localhost:3000/register/
+
+###
+
+GET http://localhost:3000/register/1/
+
+###
+
+POST http://localhost:3000/register/
+Content-Type: application/json
+
+{
+    
+  "name": "rohan"
+ 
+}
+
+###
+
+PUT http://localhost:3000/register/2/
+Content-Type: application/json
+
+{
+    "name":"monu"
+}
+
